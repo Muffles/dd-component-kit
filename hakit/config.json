@@ -1,12 +1,12 @@
 {
-  "name": "Hakit",
+  "name": "Donderdash",
   "version": "1.0.35",
-  "slug": "hakit",
+  "slug": "donderdash",
   "init": false,
   "ingress": true,
   "ingress_stream": true,
   "stage": "stable",
-  "url": "https://github.com/shannonhochkins/ha-component-kit",
+  "url": "https://github.com/Muffles/dd-component-kit",
   "ingress_port": 2022,
   "description": "An addon to render custom dashboards for home assistant using @hakit, please ignore the custom_dashboard, it should be enabled",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
@@ -34,7 +34,7 @@
   "startup": "services",
   "hassio_api": true,
   "homeassistant_api": true,
-  "panel_admin": true,
+  "panel_admin": false,
   "panel_icon": "mdi:tablet-dashboard",
-  "panel_title": "HAKIT Dashboard"
+  "panel_title": "Donderdash"
 }
